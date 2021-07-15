@@ -1,0 +1,36 @@
+.products {
+    margin-top: 40px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.product-above {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+}
+
+.same-1-2 {
+    height: 400px;
+}
+
+.product3 {
+    flex: 1;
+    
+}
+
+.pdt-detail{
+    display: flex;
+    justify-content: space-between;
+    color: #1a2456;;
+    padding: 10px 0;
+}
+
+.product3 img {
+    height: 430px;
+    width: 100%;
+}
