@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -20,6 +22,68 @@ body {
     object-fit: cover;
     display: flex;
     flex-direction: column;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 10px;
+    z-index: 100;
+    background-color: #1a2456;
+    height: 60px;
+    color: #cda8a4;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    letter-spacing: 2px;
+    padding: .5em 1em;
+    position: sticky;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.5;
+}
+
+.nav-link {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.nav-link {
+    cursor: pointer;
+}
+
+.shop-bag {
+    height: 25px;
+    color: #cda8a4;
+}
+
+
+.cover {
+    position: absolute;
+    right: 50px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 40px;
+    padding: 40px 30px;
+}
+
+.cover h1 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    color: #1a2456;
+    letter-spacing: 4px;
+    
+}
+.cover p {
+    letter-spacing: 4px;
+    margin: 20px 0;
+    color: #1a2456;
 }
