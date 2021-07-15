@@ -1,5 +1,87 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding-top: 20px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  z-index: 2;
+  font-weight: 600;
+}
+
+.container {
+  /* scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%; */
+  position: relative;
+  transform: translate3d(0px, 0px, 0px);
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  scroll-snap-align: start;
+  font-size: 40px;
+}
+
+.cover {
+  width: 420px;
+  height: 552px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.cover img {
+  width: 100%;
+}
+/* 
+.color-darkslateblue {
+  background-color: #1d3fbb;
+}
+
+.color-darkturquoise {
+  background-color: #00c1b5;
+}
+
+.color-orangered {
+  background-color: #ff6519;
+}
+
+.color-gold {
+  background-color: #ffbe00;
+} */
+
+.one {
+  background-color: #00c1b5;
+}
+
+.two {
+  background-color: #ff651a;
+}
+
+.three {
+  background-color: #1d3fbb;
+}
+
+.four {
+  background-color: #ffbe00;
+}
+
+.five {
+  background-color: #e30512;
 }

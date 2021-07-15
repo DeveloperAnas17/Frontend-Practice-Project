@@ -34,3 +34,29 @@
     height: 430px;
     width: 100%;
 }
+
+
+.pdt > img {
+    height: 300px;
+    width: 320px;
+    object-fit: contain;
+}
+
+.pdt {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-products {
+    margin-top: 40px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-below {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+}
