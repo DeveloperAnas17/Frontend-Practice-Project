@@ -7,6 +7,7 @@ main {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
 
 .upper-product {
@@ -81,4 +82,15 @@ img {
 
 .down-prd {
   cursor: pointer;
+}
+
+/* @media queries */
+
+@media (max-width: 650px) {
+  .upper-product {
+    grid-template-columns: 1fr;
+  }
+  .down-products {
+    grid-template-columns: 1fr;
+  }
 }
