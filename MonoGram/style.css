@@ -12,7 +12,7 @@ body {
 
 .bg-hero {
   /* margin-top: -10px; */
-  background-image: url("./img/bg-banner.jpg");
+  background-image: url("./img/hero.jpg");
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
@@ -76,4 +76,41 @@ header {
   .nav-links {
     display: none;
   }
+}
+
+/* banner */
+.banner {
+  background-image: url("./img/banner.jpg");
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner > img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30px;
+  text-align: center;
+}
+.banner-text h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: #1a2456;
+}
+
+.banner-text p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #1a2456;
 }
