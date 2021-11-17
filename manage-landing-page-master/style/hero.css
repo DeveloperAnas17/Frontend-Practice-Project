@@ -1,0 +1,67 @@
+main {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+}
+
+.presentation {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #242d52;
+}
+
+.intro-text > p {
+  margin-top: 15px;
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+
+.cta > button {
+  border: none;
+  color: #fff;
+  background: #f25f3a;
+  padding: 10px 14px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+.cover img {
+  height: 100%;
+}
+
+.big-circle {
+  position: absolute;
+  top: -80px;
+  right: 50px;
+  z-index: -1;
+  /* opacity: ; */
+  height: 95%;
+}
