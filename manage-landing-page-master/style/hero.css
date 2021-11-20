@@ -10,6 +10,7 @@ main {
   width: 90%;
   min-height: 80vh;
   align-items: center;
+  padding: 20px;
 }
 
 .introduction {
@@ -24,7 +25,7 @@ main {
 }
 
 .intro-text h1 {
-  font-size: 44px;
+  font-size: 2.6rem;
   line-height: 50px;
   font-weight: 500;
   color: #242d52;
@@ -49,7 +50,7 @@ main {
 }
 
 .intro-text p {
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 22px;
   color: #585772;
 }
@@ -62,6 +63,15 @@ main {
   top: -80px;
   right: 50px;
   z-index: -1;
-  /* opacity: ; */
   height: 95%;
+}
+
+@media screen and (max-width: 950px) {
+  .presentation {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .introduction {
+    text-align: center;
+  }
 }
