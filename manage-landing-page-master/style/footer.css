@@ -1,0 +1,72 @@
+.footer {
+  max-width: 1440px;
+  background-color: rgb(24, 22, 22);
+  height: 35vh;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-first > img {
+  color: #fff;
+}
+
+.social-accounts {
+  display: flex;
+  align-items: center;
+}
+
+.social-accounts > img {
+  margin-right: 12px;
+}
+
+.footer-second > h4,
+.footer-third > h4 {
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.3s ease-in;
+}
+
+.footer-second > h4:hover,
+.footer-third > h4:hover {
+  color: #f25f3a;
+  cursor: pointer;
+}
+
+.footer-fourth {
+  display: flex;
+  align-items: center;
+}
+
+.footer-fourth > input {
+  height: 30px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.footer-fourth > button {
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f25f3a;
+  color: #fff;
+  margin-left: 12px;
+}

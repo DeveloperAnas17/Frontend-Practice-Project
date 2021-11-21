@@ -7,10 +7,9 @@ main {
 .presentation {
   display: flex;
   margin: auto;
-  width: 90%;
   min-height: 80vh;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .introduction {

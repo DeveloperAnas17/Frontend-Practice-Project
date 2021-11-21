@@ -82,3 +82,32 @@ body {
     transition: all 1s ease-out;
   }
 }
+
+.add {
+  max-width: 1440px;
+  margin: auto;
+  height: 30vh;
+  background-color: #f25f3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add > h1 {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.add > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  color: #f25f3a;
+  border-radius: 30px;
+  cursor: pointer;
+}

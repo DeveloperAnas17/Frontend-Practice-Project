@@ -1,6 +1,11 @@
 .testimonals-section {
   max-width: 1440px;
   margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonals-section div > h1 {
@@ -19,7 +24,7 @@
 .testimonal {
   padding: 6px;
   margin: 0 20px;
-  background-color: rgb(230, 238, 234);
+  background-color: rgb(242, 248, 245);
 }
 
 .testimonal > img {
@@ -37,5 +42,20 @@
 .testimonal > p {
   color: #585772;
   padding: 15px;
-  font-size: 1.1rem;
+  font-size: 14px;
+}
+
+.testimonal-btn {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #f25f3a;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
 }

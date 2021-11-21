@@ -1,7 +1,7 @@
 .about {
   max-width: 1440px;
   margin: auto;
-  padding: 40px 30px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
 }
