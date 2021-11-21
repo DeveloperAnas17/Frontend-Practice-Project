@@ -1,7 +1,7 @@
 .footer {
   max-width: 1440px;
   background-color: rgb(24, 22, 22);
-  height: 35vh;
+  height: fit-content;
   padding: 40px;
   display: flex;
   align-items: center;
@@ -32,13 +32,21 @@
 
 .social-accounts > img {
   margin-right: 12px;
+  height: 30px;
+}
+
+.footer-com {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
 
 .footer-second > h4,
 .footer-third > h4 {
   font-weight: 400;
+  padding-bottom: 7px;
   font-size: 16px;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .footer-second > h4:hover,
@@ -54,7 +62,7 @@
 
 .footer-fourth > input {
   height: 30px;
-  width: 200px;
+  width: 250px;
   border-radius: 30px;
   border: none;
   outline: none;
@@ -69,4 +77,32 @@
   background-color: #f25f3a;
   color: #fff;
   margin-left: 12px;
+}
+
+@media screen and (max-width: 820px) {
+  .footer-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .add-btn {
+    margin-top: 20px;
+  }
+  .footer-com {
+    margin: 30px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-first {
+    flex-direction: column-reverse;
+    width: 50%;
+  }
+  .social-accounts {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
 }

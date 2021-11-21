@@ -59,3 +59,14 @@
   border-radius: 30px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+  .testimonals {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .testimonal {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}

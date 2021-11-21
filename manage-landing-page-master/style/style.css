@@ -89,6 +89,7 @@ body {
   height: 30vh;
   background-color: #f25f3a;
   display: flex;
+  padding: 20px 40px;
   align-items: center;
   justify-content: space-around;
 }
@@ -99,7 +100,7 @@ body {
   font-weight: 500;
 }
 
-.add > button {
+.add-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,4 +111,15 @@ body {
   color: #f25f3a;
   border-radius: 30px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .add {
+    flex-direction: column;
+    justify-content: margin;
+    text-align: center;
+  }
+  .add-btn {
+    margin-top: 20px;
+  }
 }
